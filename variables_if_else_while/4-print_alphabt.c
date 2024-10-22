@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 /**
+ * main - saltearse letras en el abecedario
+ * Return: 0
  */
 
 int main(void)
@@ -11,7 +13,7 @@ int main(void)
 	{
 		if (abc == 'e')
 			continue;
-		else if(abc == 'q')
+		else if (abc == 'q')
 			continue;
 		putchar(abc);
 	}
