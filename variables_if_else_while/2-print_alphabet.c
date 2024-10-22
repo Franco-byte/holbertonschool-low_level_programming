@@ -2,14 +2,14 @@
 
 /**
  * main - Imprimir abecedario
- * Return: zero again
+ * Return: 0
  */
 
 int main(void)
 {
 	char abc;
 
-	for (char abc = 'a'; abc <= 'z'; abc++)
+	for (abc = 'a'; abc <= 'z'; abc++)
 	{
 	putchar(abc);
 	}
