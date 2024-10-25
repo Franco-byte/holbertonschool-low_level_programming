@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- *
+ * time_table - tablas matematicas
+ * Return: tablas
  */
 
 void times_table(void)
@@ -26,6 +27,7 @@ void times_table(void)
 				if (mx < 9)
 				{
 					_putchar(',');
+					_putchar(' ');
 					_putchar(' ');
 				}
 				if (result < 10)
