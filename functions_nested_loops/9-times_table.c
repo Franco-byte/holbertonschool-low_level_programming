@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * time_table - tablas matematicas
+ * times_table - tablas matematicas
  * Return: tablas
  */
 
