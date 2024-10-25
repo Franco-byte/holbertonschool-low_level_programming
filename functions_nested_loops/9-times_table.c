@@ -16,6 +16,10 @@ void times_table(void)
 		result = m * mx;
 			if (result < 10)
 			{
+				if (mx != 0)
+				{
+				_putchar(' ');
+				}
 				_putchar(result + '0');
 			}
 			else
@@ -27,11 +31,6 @@ void times_table(void)
 				if (mx < 9)
 				{
 					_putchar(',');
-					_putchar(' ');
-					_putchar(' ');
-				}
-				if (result < 10)
-				{
 					_putchar(' ');
 				}
 		}
