@@ -2,7 +2,7 @@
 
 /**
  * print_to_98 - Va hacia el 98
- * @n: Numero de inicio 
+ * @n: Numero de inicio
  *
  * Return: nada
  */
@@ -18,7 +18,7 @@ void print_to_98(int n)
 		for (; n <= 98; n++)
 		{
 			printf("%d", n);
-			if (n !=98)
+			if (n != 98)
 			printf(", ");
 		}
 		printf("\n");
