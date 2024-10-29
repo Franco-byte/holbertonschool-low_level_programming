@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- *
+ * more_numbers - impirme los numeros 10 veces
+ * Return: nada
  */
 
 void more_numbers(void)
