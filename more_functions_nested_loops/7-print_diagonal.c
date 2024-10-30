@@ -2,7 +2,7 @@
 
 /**
  * print_diagonal - Hace rallitas diagonales
- * @n: Cuantas rallitas hace 
+ * @n: Cuantas rallitas hace
  *
  * Return: nada de nada
  */
