@@ -1,7 +1,10 @@
 #include "main.h"
 
 /**
+ * print_line - Hace rallitas
+ * @n: Cuantas rallitas hace
  *
+ * Return: nada de nada
  */
 
 void print_line(int n)
