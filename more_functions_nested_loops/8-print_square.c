@@ -1,7 +1,10 @@
 #include "main.h"
 
 /**
- * print
+ * print_square - Print numeral digit
+ * @size: Number of digit
+ *
+ * Return: nathing
  */
 
 void print_square(int size)
