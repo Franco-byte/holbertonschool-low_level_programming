@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_diagonal - Hace rallitas
- * @n: Cuantas rallitas hace
+ * print_diagonal - Hace rallitas diagonales
+ * @n: Cuantas rallitas hace 
  *
  * Return: nada de nada
  */
