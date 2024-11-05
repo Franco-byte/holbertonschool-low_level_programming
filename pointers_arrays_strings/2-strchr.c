@@ -16,7 +16,11 @@ char *_strchr(char *s, char c)
 	for (iterador = 0; s[iterador] != '\0'; iterador++)
 	{
 		if (s[iterador] == c)
-			return (&s[iterador]);
+			return ($s[iterador]);
 	}
+	if (s[iterador] == '\0')
+	{
+		return ($s[iterador]);
+	}	
 	return (NULL);
 }
