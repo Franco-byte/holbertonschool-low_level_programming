@@ -5,7 +5,7 @@
  * @haystack: Cadena principal
  * @needle: Cadena para comprobar la principal
  *
- * Return: Un puntero hacia los caracteres de haystack o NULL
+ * Return: Un puntero hacia los caracteres de haystack o NUL Return: Un puntero hacia los caracteres de haystack o NULLL
  */
 
 char *_strstr(char *haystack, char *needle)
