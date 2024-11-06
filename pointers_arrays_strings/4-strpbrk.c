@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * *_strpbrk - Imprime caracteres seugun una plantilla
+ * _strpbrk - Imprime caracteres seugun una plantilla
  * @s: Cadena a revisar
  * @accept: plantilla
  *
- * Rewturn: pointer de los caracteres o NULL
+ * Return: pointer de los caracteres o NULL
  */
 
 char *_strpbrk(char *s, char *accept)
@@ -15,7 +15,7 @@ char *_strpbrk(char *s, char *accept)
 	for (i1 = 0; s[i1] != '\0'; i1++)
 	{
 
-		for (i1 = 0; accept[i2] != '\0'; i2++)
+		for (i2 = 0; accept[i2] != '\0'; i2++)
 		{
 			if (s[i1] == accept[i2])
 			{
