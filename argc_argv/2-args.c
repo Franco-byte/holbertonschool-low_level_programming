@@ -4,7 +4,7 @@
  * main - imprime argumentos
  * @argc: cuenta rgumentos
  * @argv: almacena los argumentos
- * 
+ *
  * Return: cero
  */
 
