@@ -17,3 +17,5 @@ void print_chessboard(char (*a)[8]);
 void print_diagsums(int *a, int size);
 void print_rev(char *s);
 void rev_string(char *s);
+void puts2(char *str);
+
