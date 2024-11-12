@@ -1,6 +1,25 @@
 #include "main.h"
 
 /**
+ * _strlen - cuenta caracteres
+ * @p: string a contar
+ *
+ * Return: num
+ */
+
+int _strlen(char *p)
+{
+	int num = 0, i;
+
+	for (i = 0; p[i] != '\0'; i++)
+	{
+		num++;
+	}
+	return (num);
+}
+
+
+/**
  * *_strdup - Duplica contenido siguiendo el almacenamiento de memoria
  * @str: Puntero hacia el string a duplicar
  *
@@ -17,7 +36,7 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 
-	arr = (char *)malloc(strlen(str) + 1);
+	arr = (char *)malloc(_strlen(str) + 1);
 
 	if (arr == NULL)
 	{
