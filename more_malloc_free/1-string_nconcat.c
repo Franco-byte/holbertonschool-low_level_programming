@@ -53,10 +53,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	for (i = 0; i < _strlen(s1); i++)
 		arr[i] = s1[i];
-	
+
 	for (i2 = 0; i2 < limit; i2++)
 		arr[i + i2] = s2[i2];
-	
+
 	arr[i + limit] = '\0';
 	return (arr);
 }
