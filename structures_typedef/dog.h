@@ -1,7 +1,20 @@
+#ifndef DOG_H
+#define DOG_H
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
 #include <ctype.h>
+
+/**
+ * struct dog - Estructura que describe un perro
+ * @name: Nombre del perro (tipo char *)
+ * @age: Edad del perro (tipo float)
+ * @owner: Nombre del dueño (tipo char *)
+ *
+ * Descripción: Una structura para almacenar información básica
+ * sobre un perro y su dueño.
+ */
 
 struct dog
 {
@@ -9,3 +22,5 @@ struct dog
 	float age;
 	char *owner;
 };
+
+#endif /* DOG_H */
