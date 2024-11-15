@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * *array_range - Crea un array con valores consecutivos
+ * array_range - Crea un array con valores consecutivos
  * @min: valor mninimo
  * @max: valor maximo
  *
- * Retutn: arr
+ * Return: arr
  */
 
 int *array_range(int min, int max)
