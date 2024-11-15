@@ -5,7 +5,7 @@
  * print_dog - Imprime los valores de la estructura
  * @d: puntero a imprimir
  *
- * Return: Si algún campo de la estructura es NULL, imprime (nil) en lugar de NULL.
+ * Return: Si los campos son NULL, imprime (nil) en lugar de NULL.
  */
 
 void print_dog(struct dog *d)
